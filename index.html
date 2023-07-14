@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/formular.js" defer></script>
+    <link  href="css/style.css" rel="stylesheet">
+
+    <title>Document</title>
+
+</head>
+
+<body>
+    <h1 id = head-text>
+        <p>
+            sten sax påse
+        </p>
+    </h1>
+<div id="input-box">
+    <form id="form">
+        <input id="player-name-input" type="text" placeholder="Name">
+        <br>
+        <input type="submit" id="submit" value="Submit">
+    </form>
+</div>
+    <div class="game-container">
+        <div id="ai-container">
+            <div class="name-display">
+                <h3 id = AI>AI</h3>
+            </div>
+            <h3 id="ai-point"></h3>
+            <h4 id="ai-weapon"></h4>
+        </div>
+        <div id="player-container">
+            <div class="name-display">
+                <h3 id="player-name-output"></h3>
+            </div>
+            <h3 id="player-point"></h3>
+            <h4 id="player-weapon"></h4>
+        </div>
+        <div id="option">
+            <button value="sten" id="rock-btn">STEN</button>
+            <button value="påse" id="paper-btn">PÅSE</button>
+            <button value="sax" id="scissors-btn">SAX</button>
+        </div>
+        <div id="resultat"></div>
+
+        <br>
+        <button id="quit">quit</button>
+    </div>
+</body>
+
+</html>
